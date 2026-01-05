@@ -1,8 +1,8 @@
-function copyToClipboard1(ip) {
-  navigator.clipboard.writeText(ip).then(() => {
-    // alert("Copied: " + ip);
-  });
-}
+// function copyToClipboard1(ip) {
+//   navigator.clipboard.writeText(ip).then(() => {
+//     // alert("Copied: " + ip);
+//   });
+// }
 
 // changes on
 // List of IPs (this can come from API, backend, or config)
@@ -16,7 +16,7 @@ const ipAddresses = [
 
 const v = "12:28:00";
 const startTime = new Date(`2026-01-03T${v}`).getTime();
-const counter = "countdown1" // countdown | countdown1
+const counter = "countdown" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
 const ipAddresses1 = [
@@ -28,18 +28,18 @@ const ipAddresses1 = [
 
 
 // Render IP list into the container
-const ipGrid1 = document.getElementById("ipGrid1");
-ipAddresses1.forEach((ip) => {
-  const div = document.createElement("div");
-  div.classList.add("ip-item");
-  div.innerHTML = `
-    ${ip} 
-    <button class="copy-btn" onclick="copyToClipboard1('${ip}')">
-      <i class="fas fa-copy"></i> Copy
-    </button>
-  `;
-  ipGrid1.appendChild(div);
-});
+// const ipGrid1 = document.getElementById("ipGrid1");
+// ipAddresses1.forEach((ip) => {
+//   const div = document.createElement("div");
+//   div.classList.add("ip-item");
+//   div.innerHTML = `
+//     ${ip} 
+//     <button class="copy-btn" onclick="copyToClipboard1('${ip}')">
+//       <i class="fas fa-copy"></i> Copy
+//     </button>
+//   `;
+//   ipGrid1.appendChild(div);
+// });
 ////////////////////
 ///////// aws
 
