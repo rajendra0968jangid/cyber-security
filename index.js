@@ -98,4 +98,4 @@ function updateCountdown(ct) {
 
 // Run immediately and then every second
 updateCountdown(counter);
-const timer = setInterval(updateCountdown, 1000);
+const timer = setInterval(() => updateCountdown(counter), 1000);
