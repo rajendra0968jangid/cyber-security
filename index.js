@@ -6,7 +6,7 @@
 
 // changes on
 // List of IPs (this can come from API, backend, or config)
-constconst ipAddresses = [
+const ipAddresses = [
   "54.90.244.15",
   "54.167.21.240",
   "98.89.22.167",
