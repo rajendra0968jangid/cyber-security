@@ -9,15 +9,15 @@
 
 
 const ipAddresses = [
-  "13.218.38.100", 
-"54.91.188.4",
-"100.31.138.210",
-"54.243.17.161",
-"98.81.150.232",
+  "34.233.125.117", 
+"13.220.87.254",
+"54.227.11.3",
+"18.212.226.19",
+"18.232.169.169",
 ];
 
-const v = "14:25:00";
-const startTime = new Date(`2026-03-10T${v}`).getTime();
+const v = "09:23:00";
+const startTime = new Date(`2026-03-11T${v}`).getTime();
 const counter = "countdown" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
